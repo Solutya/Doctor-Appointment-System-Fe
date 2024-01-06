@@ -1,0 +1,117 @@
+@import url(app.css);
+
+
+@media (min-width: 1024px) {
+  .lg\:w-\[570px\] {
+      width: 570px;
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        flex: 1;
+      }
+  }
+}
+
+@media (min-width: 768px) {
+   
+
+
+  .hero-content h1 {
+    font-size: 46px;
+    line-height: 66px;
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+
+.hero {
+  display: flex;
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+
+
+
+
+.img-section{
+
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+/* .one{
+  width: 100%;
+} */
+.second{
+ 
+  margin-top: 30px;
+  display: grid;
+ 
+}
+.third{
+  margin-bottom: 30px;
+ 
+}
+
+
+
+
+.about {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
+  .hero {
+    height: auto;
+  }
+  .hero,
+  .about {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .hero-content h1 {
+    text-align: center;
+  }
+  .about-heading {
+    margin-top: 4rem;
+  }
+}
+
+
+/* @media (max-width: 1000px) {
+  .hero {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    width: 60%;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero{
+    width: 70%;
+  }
+} */
+
+
+
+
+
